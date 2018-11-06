@@ -17,7 +17,8 @@ const MainDiv = styled.div`
   }
 
   .closeButton{
-    font-size: 10px;
+    font-size: 20px;
+    cursor: pointer;
     position: fixed;
     right: 0px;
     margin-right: 10%;
@@ -29,7 +30,7 @@ const MainDiv = styled.div`
   .rowAcrossTop{
     background: rgba(20, 20, 20, 0);
     width: 100%;
-    height: 20px;
+    height: 40px;
   }
 
   .display-block{

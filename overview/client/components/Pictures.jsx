@@ -62,7 +62,6 @@ const Wrapper = styled.div`
       height: 18px;
       width: 18px;
       padding: 5px 3px 5px 5px;
-      margin-right: 5px;
       &.save {
         padding-bottom: 0px;
       }
@@ -75,7 +74,8 @@ const Wrapper = styled.div`
       margin-right: 15px;
       svg {
         fill: white;
-        margin-bottom: 5px;
+        width: 25px;
+        height: 25px;
       }
     }
   }
