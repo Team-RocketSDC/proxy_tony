@@ -1,29 +1,17 @@
 {
-  "name": "proxy-all",
+  "name": "proxy",
   "version": "1.0.0",
   "description": "",
-  "main": ".eslintrc.js",
-  "dependencies": {
-    "concurrently": "^4.0.1"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "overview": "node overview/server",
-    "popular": "node popular-dishes-and-full-menu/server",
-    "recommended": "node Recommended-Reviews-Module/server",
-    "reservation": "node reservation-hours/server/app.js",
-    "proxy": "node proxy_tony/server.js",
-    "start": "concurrently \"npm run overview\" \"npm run popular\" \"npm run recommended\" \"npm run reservation\" \"npm run proxy\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhantia1/proxy_tony.git"
+    "start": "nodemon ./server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhantia1/proxy_tony/issues"
-  },
-  "homepage": "https://github.com/zhantia1/proxy_tony#readme"
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
 }
